@@ -1,4 +1,4 @@
-# YouTube Audacity Enhancer
+# Audacity Voice Skill for Claude
 
 A Claude skill that turns a raw voice recording into a YouTube-ready WAV in **Audacity 4**, using a tested processing chain for spoken voiceovers.
 
@@ -46,7 +46,7 @@ Claude opens the file in Audacity, checks it is an unprocessed original, applies
 ## Structure
 
 ```
-YouTube-Audacity-Enhancer/
+audacity-voice-skill-for-claude/
 ├── README.md
 └── youtube-voice-audacity/
     └── SKILL.md
