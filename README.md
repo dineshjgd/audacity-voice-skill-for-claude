@@ -43,11 +43,17 @@ Ask Claude something like:
 
 Claude opens the file in Audacity, checks it is an unprocessed original, applies the chain, and exports the WAV next to the source file.
 
+## Podcast variant
+
+`youtube-podcast-audacity/` is a second skill with a podcast-style chain: less boom, more presence and air, two-stage compression, same -14 LUFS / -1 dB targets. It uses only Shelf filters for tone, so every value can be typed exactly. Ask Claude to "use my podcast voice settings".
+
 ## Structure
 
 ```
 audacity-voice-skill-for-claude/
 ├── README.md
-└── youtube-voice-audacity/
+├── youtube-voice-audacity/
+│   └── SKILL.md
+└── youtube-podcast-audacity/
     └── SKILL.md
 ```
